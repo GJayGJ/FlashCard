@@ -99,7 +99,9 @@ struct ContentView: View {
             "book": "書",
             "cat": "貓",
             "dog": "狗",
-            "run": "跑步"
+            "run": "跑步",
+            "banana": "香蕉",
+            "egg": "蛋"
         ]
         let result = dict[english.lowercased()] ?? "(請自行輸入翻譯)"
         chinese = result
